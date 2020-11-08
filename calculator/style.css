@@ -1,0 +1,43 @@
+body{
+    align-content: center;
+}
+
+.interface{
+    width:400px;
+    margin-left:auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px ;
+    grid-template-rows:  50px 50px 50px 50px 50px 50px 50px ;
+    grid-template-areas: 
+    '_7 _8 _9 divide'
+    '_4 _5 _6 multiply'
+    '_1 _2 _3 minus'
+    'ce _0 dot add'
+    'c enter enter enter'
+    'former former former operator '
+    'latter latter latter operator'
+    ;
+}
+
+input{
+    border: black 2px solid;
+}
+
+button{
+    width: auto;
+    height: auto;
+    font-size: 20px;
+}
+
+p{
+    border:solid 1px black;
+    margin:10px;
+}
+
+.currOperator{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+

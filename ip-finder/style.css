@@ -1,0 +1,33 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+#start-button{
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 35px;
+    background: linear-gradient(to top, #696969, #575757);
+    color: white;
+    box-shadow: -2px -2px  black inset;
+}
+
+#start-button:active{
+    box-shadow: 0px 0px  black inset;
+    transform: translateY(3px);
+}
+
+#result{
+    font-size: 20px;
+    font-weight: 800;
+    color: red;
+}
