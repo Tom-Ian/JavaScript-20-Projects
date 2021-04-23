@@ -15,17 +15,17 @@ const songs = [
     {
         name: 'jacinto-1',
         displayName: 'Electric Chill Machine',
-        artist: 'Jacinto Design'
+        artist: 'Dev Tom'
     },
     {
         name: 'jacinto-2',
         displayName: 'Seven Nation Army (Remix)',
-        artist: 'Jacinto Design'
+        artist: 'Dev Tom'
     },
     {
         name: 'jacinto-3',
         displayName: 'Third Song',
-        artist: 'Jacinto Design'
+        artist: 'Dev Tom'
     }
 
 ]
