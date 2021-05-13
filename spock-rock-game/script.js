@@ -101,6 +101,7 @@ function displayComputerChoice() {
 // Check result, increase scores, update resultText
 function updateScore(playerChoice) {
   if(playerChoice === computerChoice) {
+    removeConfetti();
     resultText.textContent = "It's a tie."
   } else {
     const choice = choices[playerChoice];
@@ -113,6 +114,7 @@ function updateScore(playerChoice) {
     
       
     } else {
+      removeConfetti();
       resultText.textContent = "You Lost!";
       computerScoreNumber ++;
       computerScoreEl.textContent = computerScoreNumber;

@@ -27,7 +27,6 @@ const songs = [
         displayName: 'Third Song',
         artist: 'Dev Tom'
     }
-
 ]
 
 // Check if Playing
